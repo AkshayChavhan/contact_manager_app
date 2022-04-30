@@ -1,0 +1,81 @@
+.header_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 100vw;
+    background-color: antiquewhite;
+    box-shadow: 20px;
+}
+
+
+
+
+/* Addcontact css */
+.form_container{
+    margin-left: 1.2rem;
+}
+
+
+
+.addcontact_container > h2 {
+    font-size: 2rem;
+    padding: 0.5rem;
+    padding-left: 1rem;
+}
+
+.form_label{
+    font-weight: 600;
+    display: block;
+    padding-bottom: 0.8rem;
+}
+
+.form_input{
+    width: 80vw;
+    height: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-color: 0.5px rgb(175, 170, 170);
+}
+
+.btn{
+    display: block;
+    width: 5rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    background-color: #1f78ca;
+    border-radius: 5px;
+    color: white;
+    box-shadow: none;
+    margin-bottom: 2rem;
+    
+}
+
+/* contactlsit */
+.icon_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete_btn{
+    display: block;
+    width: 1.8rem;
+    height: 1.8rem;
+    font-size: 1rem;
+    background-color: #e70909;
+    border-radius: 5px;
+    color: black;
+    box-shadow: none;
+    margin-bottom: 2rem;
+}
+/* .delete_icon button{
+    background-color: rgb(207, 39, 39);
+
+} */
+/* contact_card */
+.card_container{
+    padding: 1rem ;
+}
+
+.items{
+    margin-bottom:0.2rem;
+}
